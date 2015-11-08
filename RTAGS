@@ -1,688 +1,0 @@
-
-../devtools//inst/templates/revdep.R,11
-rres3,21
-
-../devtools//R/bash.r,13
-bbash6,175
-
-../devtools//R/build-github-devtools.r,32
-bbuild_github_devtools34,1376
-
-../devtools//R/build.r,36
-bbuild28,1475
-bbuild_win92,3543
-
-../devtools//R/check-cran.r,21
-ccheck_cran29,1559
-
-../devtools//R/check-devtools.r,76
-rrelease_checks11,421
-ccheck_dev_versions19,622
-ccheck_version47,1415
-
-../devtools//R/check-doc.r,47
-ccheck_doc17,647
-pprint_if_not_null40,1444
-
-../devtools//R/check.r,115
-ccheck62,2978
-ccheck_r_cmd97,4072
-ccheck_env_vars127,5163
-aaspell_env_var136,5436
-sshow_env_vars143,5598
-
-../devtools//R/clean.r,65
-cclean_source12,457
-eeval_clean39,1293
-eevalq_clean54,1570
-
-../devtools//R/compile-dll.r,159
-ccompile_dll21,835
-cclean_dll49,1688
-ddll_path62,1984
-mmtime69,2143
-ssources76,2294
-hheaders84,2500
-nneeds_compile99,2961
-nneeds_clean115,3368
-
-../devtools//R/cran.r,71
-aavailable_packages1,0
-ppackage_url5,145
-ccran_pkg_version29,884
-
-../devtools//R/create.r,141
-ccreate32,1301
-ssetup52,1793
-eextract_package_name68,2238
-ccheck_package_name72,2332
-vvalid_name85,2676
-ccreate_namespace89,2769
-
-../devtools//R/decompress.r,95
-ssource_pkg2,28
-ddecompress34,852
-ggetdir66,1885
-ggetrootdir70,2073
-mmy_unzip77,2237
-
-../devtools//R/deps.R,327
-ppackage_deps48,2062
-ddev_package_deps90,3171
-ccompare_versions114,3932
-iinstall_dev_remotes136,4329
-ddev_remote_type150,4654
-hhas_dev_remotes184,5512
-pprint.package_deps192,5617
-uupdate.package_deps221,6358
-iinstall_packages246,7100
-ffind_deps260,7612
-sstandardise_dep283,8338
-uupdate_packages312,9205
-
-../devtools//R/dev-example.r,21
-ddev_example17,379
-
-../devtools//R/dev-help.r,82
-ddev_help21,759
-vview_rd39,1234
-sshim_help119,3987
-sshim_question182,5719
-
-../devtools//R/dev-meta.r,43
-ddev_meta22,495
-ccreate_dev_meta38,837
-
-../devtools//R/dev-mode.r,39
-ddev_mode19,652
-iis_library63,1708
-
-../devtools//R/doctor.R,171
-..rstudio_release5,64
-rrstudio_release10,210
-..r_release12,265
-rr_release16,346
-ddr_devtools31,708
-ddr_github73,1608
-ddoctor123,3380
-pprint.doctor133,3564
-
-../devtools//R/document.r,18
-ddocument14,535
-
-../devtools//R/env-utils.r,17
-ccopy_env8,241
-
-../devtools//R/file-cache.r,90
-mmd53,70
-mmake_cache7,137
-..cache27,548
-cchanged_files32,689
-cclear_cache36,760
-
-../devtools//R/git.R,248
-uuses_git1,0
-ggit_sha15,83
-ggit_uncommitted11,268
-ggit_sync_status17,429
-ggit_path37,1018
-uuses_github66,1806
-ggithub_info76,2016
-ggithub_dummy93,2528
-rremote_urls95,2592
-ggithub_remote_parse100,2713
-ggit_extract_sha1124,3580
-
-../devtools//R/github.R,176
-ggithub_auth1,0
-ggithub_response9,140
-ggithub_GET26,554
-ggithub_POST32,733
-ggithub_rate_limit39,954
-ggithub_commit48,1215
-ggithub_tag52,1343
-ggithub_pat63,1618
-
-../devtools//R/has-devel.r,46
-hhas_devel10,251
-ccheck_build_tools27,675
-
-../devtools//R/has-tests.r,17
-hhas_tests5,74
-
-../devtools//R/imports-env.r,97
-iimports_env14,600
-iimports_env_name35,1150
-lload_imports48,1511
-pprocess_imports70,2172
-
-../devtools//R/infrastructure-git.R,116
-uuse_git10,250
-uuse_github73,2603
-uuse_git_hook136,4763
-aadd_git_ignore155,5186
-uuse_github_links175,5708
-
-../devtools//R/infrastructure.R,660
-uuse_testthat17,590
-aadd_test_infrastructure37,1134
-uuse_test46,1474
-uuse_rstudio72,2123
-aadd_rstudio_project91,2690
-uuse_vignette102,3135
-uuse_rcpp123,3801
-uuse_travis148,4612
-uuse_coveralls177,5516
-uuse_coverage187,5857
-aadd_travis240,7768
-uuse_appveyor247,8009
-uuse_package_doc276,8990
-uuse_package307,9964
-sshow_includes337,10994
-aadd_desc_package347,11240
-uuse_data397,12760
-uuse_data_raw444,14371
-uuse_build_ignore478,15511
-uuse_readme_rmd505,16352
-uuse_revdep536,17236
-uuse_cran_comments559,17967
-uuse_code_of_conduct579,18525
-aadd_build_ignore598,19182
-uunion_write602,19303
-uuse_cran_badge618,19658
-
-../devtools//R/inst.r,14
-iinst19,508
-
-../devtools//R/install-bitbucket.r,140
-iinstall_bitbucket22,779
-bbitbucket_remote31,1106
-rremote_download.bitbucket_remote54,1723
-rremote_metadata.bitbucket_remote76,2278
-
-../devtools//R/install-git.r,116
-iinstall_git21,803
-ggit_remote30,1094
-rremote_download.git_remote39,1244
-rremote_metadata.git_remote56,1564
-
-../devtools//R/install-github.r,425
-iinstall_github53,2511
-ggithub_remote64,2901
-rremote_download.github_remote90,3620
-ggithub_has_remotes116,4300
-rremote_metadata.github_remote124,4610
-ggithub_pull163,5700
-ggithub_release167,5804
-ggithub_resolve_ref169,5883
-ggithub_resolve_ref.default172,5969
-ggithub_resolve_ref.NULL178,6062
-ggithub_resolve_ref.github_pull184,6159
-ggithub_resolve_ref.github_release196,6504
-pparse_git_repo209,7012
-
-../devtools//R/install-local.r,122
-iinstall_local17,442
-llocal_remote22,588
-rremote_download.local_remote30,745
-rremote_metadata.local_remote41,1054
-
-../devtools//R/install-min.r,18
-iinstall_min1,0
-
-../devtools//R/install-remote.R,192
-iinstall_remote11,223
-iinstall_remotes28,725
-aadd_metadata33,861
-cclear_description_md543,1092
-rremote54,1318
-iis.remote57,1421
-rremote_download59,1469
-rremote_metadata60,1544
-
-../devtools//R/install-svn.r,135
-iinstall_svn25,901
-ssvn_remote34,1157
-rremote_download.svn_remote46,1405
-rremote_metadata.svn_remote87,2461
-ssvn_path96,2707
-
-../devtools//R/install-url.r,114
-iinstall_url18,671
-uurl_remote23,845
-rremote_download.url_remote32,997
-rremote_metadata.url_remote42,1241
-
-../devtools//R/install-version.r,53
-iinstall_version17,735
-ppackage_find_repo48,1730
-
-../devtools//R/install.r,42
-iinstall55,3076
-iinstall_deps114,4972
-
-../devtools//R/lint.r,36
-llint17,852
-ccheck_lintr25,1051
-
-../devtools//R/load-code.r,61
-lload_code10,303
-pparse_collate33,776
-ffind_code40,958
-
-../devtools//R/load-data.r,18
-lload_data9,235
-
-../devtools//R/load-depends.r,19
-lload_depends1,0
-
-../devtools//R/load-dll.r,125
-lload_dll7,182
-lloaded_dlls42,1355
-llibrary.dynam254,1905
-aaddNamespaceDynLibs75,2468
-aassignNativeRoutines83,2737
-
-../devtools//R/load.r,78
-lload_all85,3628
-ccreate_description191,6734
-bbuild_description216,7407
-
-../devtools//R/missing-s3.r,19
-mmissing_s38,240
-
-../devtools//R/namespace-env.r,311
-nns_env18,719
-ccreate_ns_env28,894
-mmakeNamespace49,1450
-ssetup_ns_imports78,2701
-ssetup_ns_exports88,3062
-aadd_classes_to_exports135,4852
-pparse_ns_file302,11804
-rregister_s3311,11999
-iis_loaded322,12286
-nns_registry330,12450
-rregister_namespace336,12520
-uunregister_namespace357,13084
-
-../devtools//R/package-deps.r,48
-pparse_deps13,490
-ccheck_dep_version54,1835
-
-../devtools//R/package-env.r,128
-aattach_ns2,74
-rrun_ns_load_actions19,716
-eexport_ns27,941
-ppkg_env67,2439
-ppkg_env_name79,2659
-iis_attached86,2820
-
-../devtools//R/package.r,180
-aas.package14,389
-ccheck_dir22,536
-ppackage_root41,902
-iis_root62,1301
-nnormalise_path66,1365
-lload_pkg_description73,1507
-iis.package102,2168
-iinteractive105,2252
-
-../devtools//R/path.r,72
-gget_path20,428
-sset_path26,539
-aadd_path39,863
-oon_path55,1259
-
-../devtools//R/R.r,84
-RR2,47
-RRCMD28,1064
-rr_env_vars45,1775
-rr_profile68,2567
-aauto_tar83,3185
-
-../devtools//R/rcpp-attributes.r,79
-ccompile_rcpp_attributes4,153
-llinks_to_rcpp19,629
-ppkg_linking_to24,760
-
-../devtools//R/release.r,274
-rrelease41,1612
-rrelease_email153,4806
-yyesno171,5259
-eemail183,5608
-eemail_browser206,6135
-mmaintainer219,6435
-ccran_comments244,7050
-ccran_submission_url260,7600
-ssubmit_cran275,8211
-bbuild_cran280,8314
-uupload_cran288,8538
-aas.object_size330,9650
-
-../devtools//R/reload.r,16
-rreload25,851
-
-../devtools//R/remove-s4-class.r,105
-rremove_s4_classes5,256
-ssort_s4classes16,656
-rremove_s4_class89,3275
-ccontains_backrefs112,4135
-
-../devtools//R/revdep-summarise.R,267
-rrevdep_check_save_logs5,129
-rrevdep_check_save_summary31,865
-rrevdep_check_summary37,1042
-ccheck_summary_package66,1995
-iindent96,2627
-ccheck_dirs101,2776
-ccheck_description110,3102
-ccheck_time115,3261
-ccheck_logs125,3469
-ccheck_failures145,4148
-
-../devtools//R/revdep.R,168
-rrevdep33,1341
-rrevdep_maintainers48,1812
-pprint.maintainers58,2038
-rrevdep_check105,3981
-ccran_packages140,5363
-bbioc_packages150,5665
-ppackages158,5867
-
-../devtools//R/rtools.r,254
-ffind_rtools38,1323
-sscan_path_for_rtools119,4440
-sscan_registry_for_rtools142,5116
-iinstalled_version169,5969
-iis_compatible195,6711
-rrtools207,7035
-iis.rtools210,7141
-rrtools_url213,7270
-vversion_info214,7332
-rrtools_needed267,8551
-
-../devtools//R/run-example.r,257
-rrun_example1,0
-pprocess_ex15,424
-rrd_tag55,1321
-rrd_tags62,1441
-rremove_tag66,1526
-rreplay_stop71,1589
-rreplay_stop.error73,1655
-rreplay_stop.default77,1742
-rreplay_stop.list79,1808
-qquiet_error83,1881
-aas.character.quietError88,2057
-
-../devtools//R/run-examples.r,42
-rrun_examples28,1435
-rrd_files71,2581
-
-../devtools//R/run-loadhooks.r,67
-rrun_pkg_hook8,252
-rrun_user_hook37,939
-hhook_warning60,1497
-
-../devtools//R/run-source.r,64
-ssource_url30,1303
-ssource_gist95,3551
-ffind_gist115,4173
-
-../devtools//R/session-info.r,271
-lloaded_packages6,207
-ddev_packages23,623
-ssession_info46,1458
-pprint.session_info63,1828
-pplatform_info71,1966
-pprint.platform_info92,2429
-ppackage_info97,2604
-pprint.packages_info127,3430
-ppkg_is_base131,3531
-ppkg_date136,3652
-ppkg_source149,3960
-
-../devtools//R/shims.r,120
-iinsert_imports_shims4,99
-iinsert_global_shims14,412
-sshim_system.file50,1968
-sshim_library.dynam.unload98,3910
-
-../devtools//R/show-news.r,18
-sshow_news9,296
-
-../devtools//R/source.r,38
-ssource_many1,0
-ssource_one17,356
-
-../devtools//R/system.r,45
-ssystem_check11,465
-wwrap_command38,1070
-
-../devtools//R/test.r,106
-ttest20,919
-ffind_test_dir59,2178
-ddevtest81,2771
-uuses_testthat93,3024
-ccheck_testthat105,3224
-
-../devtools//R/topic-index.r,162
-ffind_pkg_topic5,152
-ffind_topic34,938
-ttopic_indices54,1374
-ttopic_index55,1420
-cclear_topic_index64,1625
-bbuild_topic_index73,1813
-iinvert86,2125
-
-../devtools//R/uninstall.r,19
-uuninstall15,547
-
-../devtools//R/unload.r,38
-uunload30,1156
-uunload_dll82,3079
-
-../devtools//R/upload-ftp.r,17
-uupload_ftp1,0
-
-../devtools//R/utils.r,352
-ddir.exists3,112
-ccompact8,214
-"%||%13,321
-"%:::%15,373
-rrule19,437
-eends_with_newline30,716
-rrender_template38,928
-iis_installed44,1117
-rread_dcf48,1233
-wwrite_dcf53,1354
-ddots68,1780
-ffirst_upper72,1838
-ddownload77,1920
-ddownload_text84,2083
-llast90,2223
-ffile_ext96,2498
-iis_bioconductor101,2631
-ttrim_ws105,2691
-
-../devtools//R/vignette-r.r,55
-ccopy_vignettes19,730
-ffind_vignette_extras51,1741
-
-../devtools//R/vignettes.r,96
-bbuild_vignettes17,773
-cclean_vignettes39,1447
-eext_variations63,2186
-ffile_name67,2306
-
-../devtools//R/wd.r,11
-wwd8,263
-
-../devtools//R/with-debug.r,45
-wwith_debug20,533
-ccompiler_flags51,1619
-
-../devtools//R/with.r,207
-iin_dir5,90
-wwith_collate14,322
-wwith_envvar23,575
-wwith_lib32,881
-wwith_libpaths41,1171
-wwith_locale50,1442
-wwith_makevars59,1728
-wwith_options68,2023
-wwith_par77,2269
-wwith_path86,2510
-
-../devtools//R/zzz.r,18
-..onLoad48,1552
-
-../devtools//revdep/check.R,11
-rres3,21
-
-../devtools//tests/testthat/test-github-connections.R,62
-ccreate_in_temp4,69
-eerase11,283
-mmock_use_github14,409
-
-../devtools//tests/testthat/test-github.r,138
-wwith_mock3,19
-mmock_github_resolve_ref.github_pull27,1285
-mmock_github_resolve_ref.github_release34,1528
-mmock_github_GET54,2390
-
-../devtools//tests/testthat/test-load-collate.r,23
-ttemp_copy_pkg28,562
-
-../devtools//tests/testthat/test-namespace.r,43
-iis_ancestor_env4,59
-pparent_env14,276
-
-../devtools//tests/testthat/test-s4-sort.r,15
-cclasses4,61
-
-../devtools//tests/testthat/test-s4-unload.r,49
-gget_superclasses6,185
-gget_subclasses16,514
-
-../devtools//tests/testthat/test-shim.r,36
-eexpand_path5,112
-llast_n10,225
-
-../devtools//tests/testthat/testCheckExtrafile/R/a.r,9
-aa3,24
-
-../devtools//tests/testthat/testCollateAbsent/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testCollateAbsent/R/b.r,8
-aa1,0
-
-../devtools//tests/testthat/testCollateAbsent/R/c.r,8
-aa1,0
-
-../devtools//tests/testthat/testCollateExtra/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testCollateMissing/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testCollateMissing/R/b.r,8
-bb1,0
-
-../devtools//tests/testthat/testCollateOrder/R/a.r,9
-aa3,17
-
-../devtools//tests/testthat/testCollateOrder/R/b.r,8
-aa1,0
-
-../devtools//tests/testthat/testData/data/b.r,8
-bb1,0
-
-../devtools//tests/testthat/testDataLazy/data/b.r,8
-bb1,0
-
-../devtools//tests/testthat/testDependMissing/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testDllLoad/R/a.r,40
-aa1,0
-nnulltest3,8
-nnulltest27,82
-
-../devtools//tests/testthat/testDllRcpp/R/rcpp_hello_world.R,23
-rrcpp_hello_world2,1
-
-../devtools//tests/testthat/testError/R/error.r,8
-ff1,0
-
-../devtools//tests/testthat/testHelp/R/foofoo.r,15
-ffoofoo7,133
-
-../devtools//tests/testthat/testHooks/R/a.r,89
-rrecord_use1,0
-..onLoad8,117
-..onUnload9,153
-..onAttach10,191
-..onDetach11,229
-
-../devtools//tests/testthat/testImportMissing/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testImportVersion/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testImportVersion/R/b.r,8
-bb1,0
-
-../devtools//tests/testthat/testLoadHooks/R/a.r,116
-aa1,0
-bb2,7
-cc3,14
-oonload_lib5,22
-oonattach_lib6,39
-..onLoad8,59
-..onAttach13,129
-..onUnload26,534
-
-../devtools//tests/testthat/testMissingNsObject/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testNamespace/R/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testNamespace/R/b.r,8
-bb1,0
-
-../devtools//tests/testthat/testS4export/R/all.r,22
-sclass_to_export1,0
-
-../devtools//tests/testthat/testS4import/R/all.r,14
-sderived1,0
-
-../devtools//tests/testthat/testS4sort/R/classes.r,83
-sA5,158
-sB6,172
-sC7,186
-sD8,200
-sE9,247
-sF11,277
-sG12,319
-sH14,349
-
-../devtools//tests/testthat/testS4union/R/classes.r,66
-sA1,0
-sB2,14
-sAB3,28
-smle26,73
-smleA7,108
-smle2A8,155
-
-../devtools//tests/testthat/testShim/R/a.r,32
-aa1,0
-gget_system.file7,250
-
-../devtools//tests/testthat/testVignetteExtras/vignettes/a.r,8
-aa1,0
-
-../devtools//tests/testthat/testVignettesBuilt/R/code.r,33
-ffunction_with_unusual_name1,0
