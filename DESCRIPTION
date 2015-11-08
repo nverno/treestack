@@ -1,0 +1,18 @@
+Package: treestack
+Title: Create stacked treemaps
+Version: 0.0.0.9000
+Author: person("Noah", "Peart", email = "noah.v.peart@gmail.com", role = c("aut", "cre"))
+Maintainer: Noah Peart <noah.v.peart@gmail.com>
+Description: A simple modification of the treemap output to create stacked bars.
+Depends:
+    R (>= 3.2.2)
+License: GPL-2
+LazyData: true
+Imports:
+    treemap,
+    data.table (>= 1.9.6),
+    ggplot2,
+    igraph
+Suggests:
+    testthat
+RoxygenNote: 5.0.0
