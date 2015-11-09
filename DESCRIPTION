@@ -12,7 +12,8 @@ Imports:
     treemap,
     data.table (>= 1.9.6),
     ggplot2,
-    igraph
+    igraph,
+    agg
 Suggests:
     testthat
 RoxygenNote: 5.0.0
